@@ -35,10 +35,12 @@ using namespace std;
 int main(){
 
 	int t;
-	string s[101];
+	string s[120];
 	scanf("%d", &t);
 	REP(i, t){
 		cin>>s[i];
+	}
+	REP(i,t){
 		int flag=-1;
 		FOR(j,0,i){
 			if(s[i]==s[j]){
